@@ -16,9 +16,28 @@ public class Main {
                 new Product("sör", 169.0)
         };
 
-        System.out.println(getTotalTime(travels));
+        Activity[] activities = {
+                new Activity("sétálás", 1.0),
+                new Activity("mozizás", 2.5)
+        };
 
-        System.out.println(getTotalPrice(travels));
+        HasTime[] hasTimes = {
+                travels[0],
+                travels[1],
+                activities[0],
+                activities[1]
+        };
+
+        HasPrice[] hasPrices = {
+                travels[0],
+                travels[1],
+                products[0],
+                products[1]
+        };
+
+        System.out.println(getTotalTime(hasTimes));
+
+        System.out.println(getTotalPrice(hasPrices));
 
 
     }

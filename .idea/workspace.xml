@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="asdf">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/HasPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/HasTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651511460972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="asdf">
+      <created>1651513195022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651513195022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
