@@ -39,6 +39,8 @@ public class Main {
 
         System.out.println(getTotalPrice(hasPrices));
 
+        System.out.println(getTotalTimeSpentOnVehiclesStartingWithP(hasTimes));
+
 
     }
 
@@ -61,5 +63,21 @@ public class Main {
 
         return sum;
     }
+
+    private static double getTotalTimeSpentOnVehiclesStartingWithP(HasTime[] items){
+        double sum = 0.0;
+
+        for (HasTime item : items) {
+            if (item instanceof Travel) {
+                if (((Travel) item).getVehicle().startsWith("P")) {
+                    sum += item.getTime();
+                }
+            }
+        }
+
+        return sum;
+    }
+
+
 
 }
