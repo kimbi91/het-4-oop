@@ -1,6 +1,6 @@
 package hu.progmatic.model;
 
-public abstract class Travel {
+public abstract class Travel implements HasTime, HasPrice{
 
     private City cityFrom;
     private City cityTo;
